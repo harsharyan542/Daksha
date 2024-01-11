@@ -1,0 +1,181 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ea1a1a, #febf0d, hwb(0 4% 9%));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1{
+  color: hwb(0 0% 100%);
+  text-align: center;
+  padding: 2%;
+}
+
+h1:hover{
+  background-color: #000;
+  color: #febf0d;
+  
+}
+h2, h3{
+  color: #febf0d;
+}
+
+.btn{
+  background-color: #febf0d;
+  color: #000;
+  font-size: larger;
+  border-radius: 10%;
+  width: max-content;
+  border: #febf0d;
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: rgb(0, 0, 0);
+  color: #febf0d;
+  
+}
+
+a.nav-link{
+ color: #febf0d;
+ font-size: larger;
+ 
+}
+a.nav-link:hover{
+  color: aliceblue;
+}
+
+
+body{
+  background-color: #febf0d;
+}
+
+.bg-black{
+  background-color: black;
+  color: #febf0d;
+  
+}
+
+.bg-black h2:hover{
+  border-radius: 50%;
+  background-color: #f0e8f0;
+}
+
+.bg-black p:hover{
+  color: aqua;
+}
+
+.bg-black h2{
+  color: #febf0d !important;  
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
+}
+
+
+
+.text-decoration-none{
+  color: #e6e4e4;
+
+}
+.text-decoration-none:hover{
+  color: #080808;
+}
+
+
+.services{
+  background-color: rgb(0, 0, 0);
+  color: #febf0d;
+}
+
+.services h3{
+  color: #febf0d !important;
+}
+
+.jumbotron {
+  background-image: url('images/logo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  position: relative;
+}
+
+.jumbotron .container {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.jumbotron a.btn {
+  color: #000;
+  background-color: #febf0d;
+  border-radius: 25%;
+  box-shadow: #febf0d;
+  transition: transform 0.3s;
+  position: absolute;
+  bottom: 170px;
+  right: 150px;
+  
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+
+
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.bi{
+  background-color: #f4eeee;
+}
+
+.float-end{
+  font-size: larger;
+  color: #080808;
+}
+
+.modal-dialog{
+  background-color: #e6e4e4;
+      block-size: auto;
+      top: 4px;
+      box-shadow: 0 5rem 5rem #f5b607ad;
+}
+
+.hidden{
+  display: none ;
+}
+
